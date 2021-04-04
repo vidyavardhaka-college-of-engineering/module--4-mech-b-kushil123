@@ -8,6 +8,8 @@ int main()
     struct book 
     { 
        //declare name and price
+       char name[100];
+       int prices;
         int pages; 
     }; 
     struct book b1;
